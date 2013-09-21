@@ -6,6 +6,7 @@ This gem can do this in a much simpler and more transparent.
 ## Installation
 
 Add this line to your application's Gemfile:
+    
     group :development do
       gem 'devise_haml', github:'gandark/devise_haml'
     end
@@ -17,8 +18,11 @@ And then execute:
 ## Usage
 
 Once you have generated devise views execute in your console next:
+    
     rails generate devise_haml:convert
+    
 Or If you have used scopes, execute next:
+    
     rails generate devise_haml:convert scope_name
 
 ## Contributing
